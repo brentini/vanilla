@@ -1,0 +1,238 @@
+/**The Crux of the Matter!**/
+
+* {outline:none}
+
+/**General XHTML Markup (body first, then alpha order)**/
+body{
+}
+
+a{ 
+text-decoration: none;
+}
+
+a:hover{ 
+
+}
+
+a img { border: none; }
+
+address{
+
+}
+
+blockquote{
+
+}
+
+code{ 
+font-family: Courier, monospace;
+}
+
+dt{
+
+}
+
+dd{
+
+}
+
+em{ font-style: italic; }
+
+form{
+text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+}
+
+.hide { display: none; }
+
+p{}
+
+strong{ font-weight: bold; }
+
+ul li, ol li{
+
+}
+
+
+/**LAYOUT STUFF (order of appearance)**/
+
+#wrap{
+
+}
+
+
+#container{
+
+}
+
+
+/****** Header Information ****/
+header{
+text-align: left;
+}
+
+
+header h1{
+float: left; 
+padding: 0;
+margin: 0;
+}
+
+header nav{
+/* font-size: 0.9em; ~11pt */
+
+}
+
+header nav ul li{
+
+}
+
+ul.menu {
+    padding:0;
+}
+
+li.menu-item {
+    margin:5px;
+}
+
+header .searchbar{
+float: right;
+}
+
+header .searchbar input{
+}
+
+header .searchbar input[type="text"]{
+}
+
+
+
+header .searchbar input[type="submit"]{
+}
+
+#topsearch {
+}
+
+#posts, .widget, #blog .post{
+}
+
+#posts a.visit{
+
+}
+
+.post{
+
+}
+
+
+.post h2, .business h2{ 
+
+}
+
+.post h3{
+margin: 0; padding: 0;
+
+}
+
+
+.post .byline{
+
+
+}
+
+.post .byline a{
+font-style: normal;
+}
+
+.post p {
+
+padding: 0;
+}
+
+#blog .post{
+
+
+}
+
+.navi{
+}
+
+.navi ul.pages{
+margin: 0; padding: 0;
+}
+
+.navi ul.pages li{
+display: inline;
+
+}
+
+.widget{
+
+}
+
+
+footer{
+margin: 0 auto;
+}
+
+footer a{
+}
+
+footer a:hover{
+}
+
+/**GENERAL CLASSES (alpha order)**/
+
+.left-col{
+
+}
+
+.right-col{
+}
+
+
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+
+/* self-clear floats */
+
+.group:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+img.centered, .aligncenter, div.aligncenter {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.alignright {
+float: right;
+}
+.alignleft {
+float: left;
+}
+
+.wp-caption {
+
+}
+
+.wp-caption img {
+border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+
+}
+

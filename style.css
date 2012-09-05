@@ -1,0 +1,21 @@
+/*
+Theme Name: Vanilla Skeleton
+Theme URI: http://www.ministryspring.com
+Description: Blank minimalist theme ready for developers to rock with it!
+Version: 1.0
+Author: Brentini
+Author URI: http://www.ministryspring.com
+*/
+
+/***All of the CSS***/
+
+/* import stylesheets and hide from ie/mac \*/
+@import url("css/reset.css");
+@import url("css/master.css");
+/*@import url("css/lightbox.css");*/
+@import url("css/ie.css");
+
+/* end import/hide */
+
+
+

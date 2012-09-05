@@ -1,0 +1,15 @@
+ /* Navigation Menu Styling */
+nav { display: block; width:100%; margin:0; clear:both;padding:1px 0; height: 30px; background: #333;}
+nav ul { display: block; margin: 10px 0;}
+nav ul li { display: inline; position: relative; float: left; list-style: none; }
+nav ul a, nav ul a:link, nav ul a:visited { display: block; float: left; padding: 0 5px; margin: 0; line-height: 4px; color: #fff; font-weight: bold;}
+nav ul a:hover, nav ul a:active { text-decoration: none; }
+/* Sub-Nav */
+nav ul ul { display: none; position: absolute; top: 6px; left: 7px; width: 120px; padding: 5px; background-color: #000; background-color: #777; }
+nav ul ul li { display: block; float: none; clear: both; }
+nav ul ul a, nav ul ul a:link, nav ul ul a:visited { display: block; float: none; border: 0; padding: 8px 5px; margin: 0; color: #fff; }
+nav ul ul a:hover, nav ul ul a:active { text-decoration: none; }
+/* Third-Level */
+nav ul ul ul { top: -15px; left: 125px; }
+
+

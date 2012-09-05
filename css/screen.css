@@ -1,0 +1,46 @@
+/*@import url("reset.css");*/
+
+ /* Navigation Menu Styling */
+nav { display: block; width:100%; margin:0; clear:both;padding:1px 0; height: 30px; background: #333;}
+nav ul { display: block; margin: 10px 0;}
+nav ul li { display: inline; position: relative; float: left; list-style: none; }
+nav ul a, nav ul a:link, nav ul a:visited { display: block; float: left; padding: 0 5px; margin: 0; line-height: 4px; color: #fff; font-weight: bold;}
+nav ul a:hover, nav ul a:active { text-decoration: none; }
+/* Sub-Nav */
+nav ul ul { display: none; position: absolute; top: 6px; left: 7px; width: 120px; padding: 5px; background-color: #000; background-color: #777; }
+nav ul ul li { display: block; float: none; clear: both; }
+nav ul ul a, nav ul ul a:link, nav ul ul a:visited { display: block; float: none; border: 0; padding: 8px 5px; margin: 0; color: #fff; }
+nav ul ul a:hover, nav ul ul a:active { text-decoration: none; }
+/* Third-Level */
+nav ul ul ul { top: -15px; left: 125px; }
+
+/* MEDIA QUERY */
+
+    @media (max-width: 800px){
+        
+
+        
+        nav { position: relative; z-index: 99; float: none; margin: 0; padding: 0; top: 0; left: 0; width: 100%; }
+        #menu-primary-navigation {
+		background:#333;
+		}
+        nav a.mobile_handle { display: block; padding: 10px; background: #333; text-align: center; color: #fff; font-weight: bold; margin: -10px 0 0; cursor: pointer;}
+        
+        nav ul { display: none; }
+        nav ul li { display: block; position: relative; float: none; padding: 0; background: #ccc; border-top: 1px solid #999; }
+        nav ul a, nav ul a:link, nav ul a:visited { display: block; position: relative; float: none; padding: 15px 10px; clear: both; }
+            
+        /* Second Level */
+        
+        nav ul ul { display: none; position: relative; width: 100%; top: 0; left: 0; margin: 0; padding: 0; background: none; border-bottom: 2px solid #999; }
+            nav ul ul a, nav ul ul a:link, nav ul ul a:visited { color: #000; padding: 15px 10px 15px 25px; }
+            
+        /* Third level */
+        nav ul ul ul { top: 0; left: 0; }
+            nav ul ul ul a, nav ul ul ul a:link, nav ul ul ul a:visited { padding: 15px 10px 15px 45px; }
+            
+        nav .sub_nav { position: absolute; right: 0; top: 0; width: 10%; padding: 15px 20px; margin: 0; cursor: pointer; }
+        nav .arrow_up { float: right; width: 0; height: 0; padding: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #000; }
+        nav .arrow_down { float: right; width: 0; height: 0; padding: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #000; }
+    
+    }
